@@ -17,3 +17,13 @@ app.listen(port);
 res render('index',{
 home:'true'
 });
+mongoose object documen
+Sohema , question
+const questionSohema = newmongoose.sohema({
+question:{
+	type: string;
+	required: 'true';
+	}
+});
+const question = mongoose.model('question', questionsohema);
+question.find();
