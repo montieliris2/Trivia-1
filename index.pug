@@ -28,3 +28,8 @@
             each answer in question.answers
               li= answer.title
                 input(type='radio' value=answer.title name='answer') 
+    <script>
+    
+    
+    input(type= 'radio', correcta=answer.isRight? 'true': 'false' onclick='chequear()')
+    </script>
