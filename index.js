@@ -98,3 +98,4 @@ app.get('/api/questions', (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
+app.use(express.static('public'));
